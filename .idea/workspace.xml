@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="started building a currency converter with a scanner for the user's input - still in progress.&#10;Variables are defined for: conversion rate, euro, dollar. Later will add other currencies as well.">
+    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="formatted code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -90,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683707089021</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="started building a currency converter with a scanner for the user's input - still in progress.&#10;Variables are defined for: conversion rate, euro, dollar. Later will add other currencies as well.">
+      <created>1683712751601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683712751601</updated>
+    </task>
+    <task id="LOCAL-00005" summary="formatted code">
+      <created>1683712798152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683712798152</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -98,6 +112,7 @@
     <MESSAGE value="workspace update ?" />
     <MESSAGE value="updated euros to euros in string" />
     <MESSAGE value="started building a currency converter with a scanner for the user's input - still in progress.&#10;Variables are defined for: conversion rate, euro, dollar. Later will add other currencies as well." />
-    <option name="LAST_COMMIT_MESSAGE" value="started building a currency converter with a scanner for the user's input - still in progress.&#10;Variables are defined for: conversion rate, euro, dollar. Later will add other currencies as well." />
+    <MESSAGE value="formatted code" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatted code" />
   </component>
 </project>
