@@ -75,9 +75,9 @@ public class Main {
             System.out.println("Your given amount of " + amountFrom + " " + currencyFrom + " is " + Math.round(amountTo * 100.0) / 100.0 + " " + currencyTo + ".");
 //9. We give the user the possibility to calculate another rate.
 // Once NO is given within the if statement, we exit the program. See here line 79 to 80.
-            System.out.println("Do you want to make another conversion? Please enter Yes/No");
+            System.out.println("Do you want to make another conversion? Please enter y/n");
             String userAnswer = scanner.next();
-            if (!userAnswer.equalsIgnoreCase("Yes")) {
+            if (!userAnswer.equalsIgnoreCase("y")) {
                 continueConversion = false;
             }
         }
