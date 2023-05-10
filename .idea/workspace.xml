@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="rewrote the code to fit in various currencies like yen and yuan">
+    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="rewrote the code to fit in various currencies like yen and yuan - breaking the while loop is solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683720730161</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rewrote the code to fit in various currencies like yen and yuan - breaking the while loop is solved">
+      <created>1683726662195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683726662195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +128,7 @@
     <MESSAGE value="started building a currency converter with a scanner for the user's input - still in progress.&#10;Variables are defined for: conversion rate, euro, dollar. Later will add other currencies as well." />
     <MESSAGE value="formatted code" />
     <MESSAGE value="rewrote the code to fit in various currencies like yen and yuan" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewrote the code to fit in various currencies like yen and yuan" />
+    <MESSAGE value="rewrote the code to fit in various currencies like yen and yuan - breaking the while loop is solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewrote the code to fit in various currencies like yen and yuan - breaking the while loop is solved" />
   </component>
 </project>

@@ -2,64 +2,86 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // 1. Declare scanner: //
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please choose your exchange rate here: ");
-        System.out.println("1 Euro to Dollar");
-        System.out.println("2 Dollar to Euro");
-        System.out.println("3 Yen to Euro");
-        System.out.println("4 Euro to Yen");
-        System.out.println("5 Yen to Euro");
-        System.out.println("5 Euro to Renminbi Yuan");
-        System.out.println("6 Renminbi Yuan to Euro");
+        //2. define a boolean for the while loop or the if-else statement - while has been used here.//
+        boolean continueConversion = true;
 
-        //1.  Declare a NEW scanner //
+        while (continueConversion) {
+            //3. Inside the while loop first give a print-out of choices to the user.//
+            System.out.println("Please choose your exchange rate here: ");
+            System.out.println("1 Euro to Dollar");
+            System.out.println("2 Dollar to Euro");
+            System.out.println("3 Yen to Euro");
+            System.out.println("4 Euro to Yen");
+            System.out.println("5 Euro to Renminbi Yuan");
+            System.out.println("6 Renminbi Yuan to Euro");
 
-        Scanner inputUser = new Scanner(System.in); // system takes values given in via scanner from here //
-// 2. declare boolean for while statement :
-
-        boolean exchangeInput = true;
-
-// 3. fill in all conversion rules for all currencies
-        double conversionEuroToDollar = 0.91;
-        double conversionDollarToEuro = 1.19;
-        double conversionEuroToYen = 147.96;
-        double conversionYenToEuro = 0.0068;
-        double conversionEuroToYuan = 7.60;
-        double conversionYuanToEuro = 0.13;
-
-        //3. Take in the user input via the scanner//
-
-
-        int choice = inputUser.nextInt(); //User fills in a currency at this point //
-        // while and if else statement in combination
-
-
-        while (exchangeInput) {
-
-            if (choice == 1) {
-                System.out.println("Please fill in your amount of Euros:");
-                double euro = inputUser.nextDouble(); // input of amount euros here //
-                double dollar = euro * conversionEuroToDollar;
-                System.out.println("Your given amount of " + euro + " euros is " + (Math.round(dollar)) + " dollars.");
-            } else if (choice == 2) {
-                System.out.println("Please fill in your amount of Dollars:");
-                double dollar = inputUser.nextDouble();
-                double euro = dollar * conversionDollarToEuro;
-                System.out.println("Your given amount of " + dollar + " dollar " + " is" + (Math.round(euro)) + " euro.");
-                System.out.println("Please make another choice");
-            } else if (choice == 3) {
-                System.out.println("Please fill in the amount of Yen:");
-                double yen = inputUser.nextDouble();
-                double euro = yen * conversionYenToEuro;
-                System.out.println("Your given amount of " + yen + " yen " + " is " + (Math.round(euro)) + " euro.");
-            } else {
-                System.out.println("Please choose one of the choices above.");
+            //4. Make sure that the scanner reacts when a choice is made.
+            int choice = scanner.nextInt();
+            //4. conversionRate should be 0 for now; declare empty strings for the currency-names -
+            // these have to be
+            //filled in later.
+            double conversionRate = 0;
+            String currencyFrom = "";
+            String currencyTo = "";
+// 5. Now make a switch-statement inside the while statement. Here we make sure that our double
+// conversionRate is actually filled with the right conversion rate of the given currency.
+            switch (choice) {
+                case 1:
+                    conversionRate = 0.91;
+                    currencyFrom = "Euros";
+                    currencyTo = "Dollars";
+                    break;
+                case 2:
+                    conversionRate = 1.19;
+                    currencyFrom = "Dollars";
+                    currencyTo = "Euros";
+                    break;
+                case 3:
+                    conversionRate = 0.0068;
+                    currencyFrom = "Yen";
+                    currencyTo = "Euros";
+                    break;
+                case 4:
+                    conversionRate = 147.96;
+                    currencyFrom = "Euros";
+                    currencyTo = "Yen";
+                    break;
+                case 5:
+                    conversionRate = 7.60;
+                    currencyFrom = "Euros";
+                    currencyTo = "Renminbi Yuan";
+                    break;
+                case 6:
+                    conversionRate = 0.13;
+                    currencyFrom = "Renminbi Yuan";
+                    currencyTo = "Euros";
+                    break;
+                default:
+                    System.out.println("Invalid input. Please choose a number between 1 and 6.");
+                    continue;
             }
-            System.out.println("Do you want to choose another exchange rate? Yes/No");
-            String userAnswer = inputUser.next();
-            exchangeInput = userAnswer.equalsIgnoreCase("Yes");
-        }
-        System.out.println("Thank you for using our currency service.");
-    }
 
+            //6. Now the user has to have the possibility to enter the amount of currency he chose.
+            System.out.println("Please enter the amount of " + currencyFrom + ": ");
+
+            double amountFrom = scanner.nextDouble();
+// 7. Now we calculate the exchange rate by multiplying the amount with the given conversion rate.
+            double amountTo = amountFrom * conversionRate;
+
+            System.out.println("Your given amount of " + amountFrom + " " + currencyFrom + " is " + Math.round(amountTo * 100.0) / 100.0 + " " + currencyTo + ".");
+//8. We give the user the possibility to calculate another rate.
+            // Once No is given within the if statement, we exit the program
+            System.out.println("Do you want to choose another exchange rate? Yes/No");
+            String userAnswer = scanner.next();
+            if (!userAnswer.equalsIgnoreCase("Yes")) {
+                continueConversion = false;
+            }
+        }
+
+        System.out.println("Thank you for using our service.");
+    }
 }
+
