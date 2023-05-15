@@ -100,8 +100,6 @@ public class Main {
         return amountFrom * conversionRate;
     }
 
-   
-
     private static void displayConversionResult(double amountFrom, double amountTo, String currencyFrom, String currencyTo) {
         System.out.println("Your given amount of " + amountFrom + " " + currencyFrom + " is " + Math.round(amountTo * 100.0) / 100.0 + " " + currencyTo + ".");
     }
