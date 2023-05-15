@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="completed&#10;note: it may be an option to declare amount to and from within a system.out.println - to be decided">
+    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="changing into more readable code including more methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrencyConverter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +33,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -125,7 +126,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683734575235</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added more user-friendly print out text">
+      <created>1683735616435</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683735616435</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changed yes/no to y/n for easier usability">
+      <created>1683747469946</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683747469946</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changing into more readable code including more methods">
+      <created>1684153224190</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684153224191</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +159,9 @@
     <MESSAGE value="rewrote the code to fit in various currencies like yen and yuan" />
     <MESSAGE value="rewrote the code to fit in various currencies like yen and yuan - breaking the while loop is solved" />
     <MESSAGE value="completed&#10;note: it may be an option to declare amount to and from within a system.out.println - to be decided" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed&#10;note: it may be an option to declare amount to and from within a system.out.println - to be decided" />
+    <MESSAGE value="added more user-friendly print out text" />
+    <MESSAGE value="changed yes/no to y/n for easier usability" />
+    <MESSAGE value="changing into more readable code including more methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing into more readable code including more methods" />
   </component>
 </project>
