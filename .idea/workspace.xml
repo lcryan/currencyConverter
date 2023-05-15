@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="changed yes/no to y/n for easier usability">
-      <change afterPath="$PROJECT_DIR$/src/CurrencyConverter.java" afterDir="false" />
+    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="changing into more readable code including more methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrencyConverter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683747469946</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changing into more readable code including more methods">
+      <created>1684153224190</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684153224191</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,6 +161,7 @@
     <MESSAGE value="completed&#10;note: it may be an option to declare amount to and from within a system.out.println - to be decided" />
     <MESSAGE value="added more user-friendly print out text" />
     <MESSAGE value="changed yes/no to y/n for easier usability" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed yes/no to y/n for easier usability" />
+    <MESSAGE value="changing into more readable code including more methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing into more readable code including more methods" />
   </component>
 </project>
