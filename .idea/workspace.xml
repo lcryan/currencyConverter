@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="assignment 2 solved&#10;code formatted" />
+    <list default="true" id="139bf33f-6eb3-449f-b8b3-0ea3152a5ded" name="Changes" comment="workspace">
+      <change afterPath="$PROJECT_DIR$/src/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +38,19 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunManager" selected="Application.MyClass">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="euroDollarConverter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyClass" />
       <module name="euroDollarConverter" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,6 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyClass" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.array" />
       </list>
@@ -157,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684162814042</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="workspace">
+      <created>1684163050272</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684163050272</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +195,7 @@
     <MESSAGE value="changing into more readable code including more methods" />
     <MESSAGE value="assignment 2 solved" />
     <MESSAGE value="assignment 2 solved&#10;code formatted" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment 2 solved&#10;code formatted" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>
